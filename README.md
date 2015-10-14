@@ -1,6 +1,6 @@
-# jsdomify
-[![Build Status](https://travis-ci.org/podio/jsdomify.svg)](https://travis-ci.org/podio/jsdomify)
-[![Coverage Status](https://coveralls.io/repos/podio/jsdomify/badge.svg?branch=master&service=github)](https://coveralls.io/github/podio/jsdomify?branch=master)
+# jsdomify-compat
+[![Build Status](https://travis-ci.org/podio/jsdomify-compat.svg)](https://travis-ci.org/podio/jsdomify-compat)
+[![Coverage Status](https://coveralls.io/repos/podio/jsdomify-compat/badge.svg?branch=master&service=github)](https://coveralls.io/github/podio/jsdomify-compat?branch=master)
 
 A ready to use DOM right at your finger tips for easy and fast testing without any browser in the Node environment
 (with [mocha](http://mochajs.org/), for example)
@@ -8,7 +8,7 @@ A ready to use DOM right at your finger tips for easy and fast testing without a
 ## Getting started
 
 ```
-npm install jsdomify
+npm install --save-dev jsdomify-compat
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install jsdomify
 You can create a new jsdom instance simply with 
 
 ```javascript
-var jsdomify = require('jsdomify').create();
+var jsdomify = require('jsdomify-compat').create();
 ```
 
 Or you can provide a valid HTML string that will be used as your DOM
@@ -37,7 +37,7 @@ var jsdomify = require('jsdomify').create(
 jsdomify.create();
 ```
 
-Create a new DOM instance (with or withouth the optional DOM string).
+Create a new DOM instance (with or without the optional DOM string).
 
 ### clear()
 
