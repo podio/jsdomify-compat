@@ -1,7 +1,7 @@
 {
-  "name": "jsdomify",
+  "name": "jsdomify-compat",
   "version": "0.6.1",
-  "description": "Create a JSDom instance for browserless testing, exposing some handling methods",
+  "description": "Create a JSDom instance for browserless testing (node 0.1x compatible)",
   "main": "lib/jsdomify.js",
   "directories": {
     "test": "test"
@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/podio/jsdomify.git"
+    "url": "git://github.com/podio/jsdomify-compat.git"
   },
   "keywords": [
     "jsdom",
@@ -42,7 +42,7 @@
   "author": "Domenico Matteo <matteo.domenico@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/podio/jsdomify/issues"
+    "url": "https://github.com/podio/jsdomify-compat/issues"
   },
-  "homepage": "https://github.com/podio/jsdomify"
+  "homepage": "https://github.com/podio/jsdomify-compat"
 }
