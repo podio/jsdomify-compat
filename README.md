@@ -2,8 +2,11 @@
 [![Build Status](https://travis-ci.org/podio/jsdomify-compat.svg)](https://travis-ci.org/podio/jsdomify-compat)
 [![Coverage Status](https://coveralls.io/repos/podio/jsdomify-compat/badge.svg?branch=master&service=github)](https://coveralls.io/github/podio/jsdomify-compat?branch=master)
 
-A ready to use DOM right at your finger tips for easy and fast testing without any browser in the Node environment
+A ready to use DOM instance right at your finger tips for easy and fast testing without any browser in node.js environment
 (with [mocha](http://mochajs.org/), for example)
+
+This is the compatibility version of [jsdomify](https://github.com/podio/jsdomify) which can run in node.js version
+0.10 and 0.12, using JSDOM version 3.1.2
 
 ## Getting started
 
